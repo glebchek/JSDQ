@@ -1,7 +1,7 @@
 {
-  "name": "@glebchek/starter-kit-frontend",
+  "name": "@glebchek/jsdq",
   "author": "Gleb Chekushin <mail@glebchek.com>",
-  "description": "Starting kit for new projects",
+  "description": "App for training data structures knowledge",
   "license": "MIT",
   "version": "0.0.1",
   "private": true,
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glebchek/starter-kit-frontend.git"
+    "url": "git+https://github.com/glebchek/JSDQ.git"
   },
   "keywords": [
     "starter-kit"
   ],
   "bugs": {
-    "url": "https://github.com/glebchek/starter-kit-frontend/issues"
+    "url": "https://github.com/glebchek/JSDQ/issues"
   },
-  "homepage": "https://github.com/glebchek/starter-kit-frontend#readme",
+  "homepage": "https://github.com/glebchek/JSDQ#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
