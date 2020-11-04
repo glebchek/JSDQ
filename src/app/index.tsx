@@ -1,14 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Greeting from '../greeting';
+import Splash from '../splash';
+import Quiz from '../quiz';
 
 export default function App(): JSX.Element {
   return (
     <Router>
       <Switch>
-        <Route exact path={['/', '/user/:name']}>
-          <Greeting />
+        <Route exact path="/">
+          <Splash />
+        </Route>
+        <Route exact path="/quiz">
+          <Quiz />
         </Route>
       </Switch>
     </Router>
